@@ -19,7 +19,10 @@ public class Program {
 		
 		Problem02 problem02 = new Problem02();
 		System.out.println(problem02.Solve());
-
+		
+		Problem03 problem03 = new Problem03();
+		System.out.println(problem03.Solve());
+		
 	}
 
 }
