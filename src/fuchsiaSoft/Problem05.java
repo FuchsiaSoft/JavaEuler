@@ -15,7 +15,7 @@ public class Problem05 extends BaseProblem {
 	@Override
 	public String Solve() {
 		
-		//Smallest number eveny divisible by 1 through 20
+		//Smallest number evenly divisible by 1 through 20
 		long result = 0;
 		long i = 1;
 		while (result ==0) {
