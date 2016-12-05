@@ -19,7 +19,7 @@ public class Problem07 extends BaseProblem {
 		
 		//10001st prime number
 		
-		List<Integer> primes = NumberHelper.generatePrimes(2000000);
+		List<Integer> primes = NumberHelper.generatePrimes(150000);
 		
 		return String.valueOf(primes.get(10000));
 		
