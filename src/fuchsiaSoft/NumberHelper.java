@@ -113,5 +113,44 @@ public class NumberHelper {
 	}
 	
 	
+	/**
+	 * Implements a Sieve of Eratosthenes to generate primes
+	 * in a list up to the specified amount
+	 * 
+	 * @param upperBound the maximum prime to generate
+	 * @return
+	 */
+	public static List<Integer> generatePrimes(int upperBound) {
+		
+		boolean[] candidates = new boolean[upperBound];
+		
+		for (int i = 0; i < candidates.length; i++) {
+			candidates[i] = true;
+		}
+		
+		candidates[0] = false;
+		candidates[1] = false;
+		
+		for (int i = 0; i < candidates.length; i++) {
+			if (candidates[i]) {
+				for (int j = 2; j * i < candidates.length; j++) {
+					candidates[j * i] = false;
+				}
+			}
+		}
+		
+		List<Integer> result = new ArrayList<Integer>();
+		
+		for (int i = 0; i < candidates.length; i++) {
+			if(candidates[i]) {
+				result.add(i);
+			}
+		}
+		
+		return result;
+		
+	}
+	
+	
 	
 }

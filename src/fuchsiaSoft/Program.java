@@ -1,4 +1,5 @@
 package fuchsiaSoft;
+
 /**
  * 
  */
@@ -58,6 +59,14 @@ public class Program {
 		answer = problem06.Solve();
 		end = System.currentTimeMillis();
 		System.out.println("Problem 06  --  " + String.format("%-10s", answer) + "  --  " + String.valueOf(end-start) + "ms");
+		
+		start = System.currentTimeMillis();
+		answer = "";
+		Problem07 problem07 = new Problem07();
+		answer = problem07.Solve();
+		end = System.currentTimeMillis();
+		System.out.println("Problem 07  --  " + String.format("%-10s", answer) + "  --  " + String.valueOf(end-start) + "ms");
+		
 	}
 
 }
