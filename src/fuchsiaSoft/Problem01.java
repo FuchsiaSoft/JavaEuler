@@ -7,7 +7,7 @@ package fuchsiaSoft;
  * @author chris
  *
  */
-public class Problem1 extends BaseProblem {
+public class Problem01 extends BaseProblem {
 
 	public String Solve() {
 		

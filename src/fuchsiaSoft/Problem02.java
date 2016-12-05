@@ -7,7 +7,7 @@ package fuchsiaSoft;
  * @author chris
  *
  */
-public class Problem2 extends BaseProblem {
+public class Problem02 extends BaseProblem {
 
 	/* (non-Javadoc)
 	 * @see FuchsiaSoft.BaseProblem#Solve()

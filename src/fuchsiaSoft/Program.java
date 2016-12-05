@@ -14,11 +14,11 @@ public class Program {
 	 */
 	public static void main(String[] args) {
 		
-		Problem1 problem1 = new Problem1();
-		System.out.println(problem1.Solve());
+		Problem01 problem01 = new Problem01();
+		System.out.println(problem01.Solve());
 		
-		Problem2 problem2 = new Problem2();
-		System.out.println(problem2.Solve());
+		Problem02 problem02 = new Problem02();
+		System.out.println(problem02.Solve());
 
 	}
 
