@@ -51,6 +51,13 @@ public class Program {
 		answer = problem05.Solve();
 		end = System.currentTimeMillis();
 		System.out.println("Problem 05  --  " + String.format("%-10s", answer) + "  --  " + String.valueOf(end-start) + "ms");
+		
+		start = System.currentTimeMillis();
+		answer = "";
+		Problem06 problem06 = new Problem06();
+		answer = problem06.Solve();
+		end = System.currentTimeMillis();
+		System.out.println("Problem 06  --  " + String.format("%-10s", answer) + "  --  " + String.valueOf(end-start) + "ms");
 	}
 
 }
