@@ -1,7 +1,7 @@
 /**
  * 
  */
-package FuchsiaSoft;
+package fuchsiaSoft;
 
 /**
  * @author chris
