@@ -14,15 +14,36 @@ public class Program {
 	 */
 	public static void main(String[] args) {
 		
+		System.out.println("Problem ID  --  " + String.format("%-10s", "Answer") + "  --  Time");
+		System.out.println("------------------------------------");
+		
+		long start = System.currentTimeMillis();
+		String answer = "";
 		Problem01 problem01 = new Problem01();
-		System.out.println(problem01.Solve());
+		answer = problem01.Solve();
+		long end = System.currentTimeMillis();
+		System.out.println("Problem 01  --  " + String.format("%-10s", answer) + "  --  " + String.valueOf(end-start) + "ms");
 		
+		start = System.currentTimeMillis();
+		answer = "";
 		Problem02 problem02 = new Problem02();
-		System.out.println(problem02.Solve());
+		answer = problem02.Solve();
+		end = System.currentTimeMillis();
+		System.out.println("Problem 02  --  " + String.format("%-10s", answer) + "  --  " + String.valueOf(end-start) + "ms");
 		
+		start = System.currentTimeMillis();
+		answer = "";
 		Problem03 problem03 = new Problem03();
-		System.out.println(problem03.Solve());
+		answer = problem03.Solve();
+		end = System.currentTimeMillis();
+		System.out.println("Problem 03  --  " + String.format("%-10s", answer) + "  --  " + String.valueOf(end-start) + "ms");
 		
+		start = System.currentTimeMillis();
+		answer = "";
+		Problem04 problem04 = new Problem04();
+		answer = problem04.Solve();
+		end = System.currentTimeMillis();
+		System.out.println("Problem 04  --  " + String.format("%-10s", answer) + "  --  " + String.valueOf(end-start) + "ms");
 	}
 
 }
