@@ -14,6 +14,9 @@ public class Program {
 	 */
 	public static void main(String[] args) {
 		
+		Problem1 problem1 = new Problem1();
+		System.out.println(problem1.Solve());
+		
 
 	}
 
