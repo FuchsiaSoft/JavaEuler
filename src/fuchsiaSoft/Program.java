@@ -44,6 +44,13 @@ public class Program {
 		answer = problem04.Solve();
 		end = System.currentTimeMillis();
 		System.out.println("Problem 04  --  " + String.format("%-10s", answer) + "  --  " + String.valueOf(end-start) + "ms");
+		
+		start = System.currentTimeMillis();
+		answer = "";
+		Problem05 problem05 = new Problem05();
+		answer = problem05.Solve();
+		end = System.currentTimeMillis();
+		System.out.println("Problem 05  --  " + String.format("%-10s", answer) + "  --  " + String.valueOf(end-start) + "ms");
 	}
 
 }
